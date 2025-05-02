@@ -15,7 +15,7 @@ html,body {
 }
 
  h1{
-    width: 100%;
+    width: -webkit-fill-available;
     height:55px;
     background-color:darkmagenta;
     padding: 10px;
@@ -161,13 +161,18 @@ button{
     align-self: flex-end; 
 
 }
+
+.buttons-box{
+    display: flex;
+    justify-content: space-between;
+}
 .boxes3 input::placeholder{
     color: black;
 }
 #bookdes::placeholder{
     color:black
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .containers {
       padding: 20px;
       display: flex;
@@ -176,7 +181,7 @@ button{
     }
   
     .container {
-      width: 60%; 
+      width: 90%; 
       margin: 10px 0;
       padding: 22px;
     }
@@ -184,11 +189,13 @@ button{
     .buttonplus {
       bottom: 20px;
       bottom: 20px;
-      right: 22px;
+      right: 50px;
       width: 62px;
       height: 70px;
       font-size: 45px;
       padding-left: 16px;
+      margin-bottom: 70px;
+      
     }
     .button{
         margin-top: auto;
@@ -198,22 +205,22 @@ button{
     }
   
     .popup-box {
-        width: 66%;
+        width: fit-content;
         height: 321px;
         padding: 10px;
     }
 
     .boxes3 input{
         font-size: 15px;
-        width: 140%;
+        width: 88%;
     }
     #bookdes{
         font-size: 15px;
-        width: 147%;
+        width: 95%;
     }
   }
 
-  @media(min-width: 601px) and (max-width: 1024px) {
+  @media(min-width: 701px) {
     .containers {
       padding: 20px;
       display: flex;
@@ -228,9 +235,8 @@ button{
     }
   
     .buttonplus {
-      bottom: 20px;
-      bottom: 20px;
-      right: 22px;
+      bottom: 78px;
+      right: 68px;
       width: 62px;
       height: 70px;
       font-size: 45px;
@@ -244,20 +250,22 @@ button{
     }
   
     .popup-box {
-        width: 66%;
+        width: fit-content;
         height: 321px;
         padding: 10px;
     }
 
     .boxes3 input{
         font-size: 15px;
-        padding-right: 14px;
-        width: 592px;
+        width: 207px;
+       
+       
     }
     #bookdes{
         font-size: 15px;
-        padding-right: 14px;
-        width: 592px;
+        width: 222px;
+       
+       
     }
   }
   
