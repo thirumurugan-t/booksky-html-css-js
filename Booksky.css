@@ -1,0 +1,268 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+html,body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    height: 100%;
+    overflow-x: hidden;
+   
+}
+
+ h1{
+    width: 100%;
+    height:55px;
+    background-color:darkmagenta;
+    padding: 10px;
+    border-radius: 10px;
+}
+h3 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+    .container {
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-around;    
+    max-height: auto;   
+    box-sizing: border-box;
+    }
+    
+.containers{
+    padding: 50px;
+}
+   
+button{
+    height: 40px;
+    width: 50px;
+    margin-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 7px;
+    
+}
+.container p{
+    margin-top:50px;
+   
+}
+
+
+.buttonplus{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    align-items: center;
+    padding-left: 31px;
+    border-radius: 100%;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+}
+.popup-overlay {
+    position: fixed;
+    background-color: black;
+    opacity: 0.6;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popup-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    height:330px;
+    width:30%;
+    margin: auto;
+    background-color: pink;
+    border-radius: 15px;
+    z-index: 3;
+    display:none;
+}
+
+.boxes3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 30px;
+    
+}
+.boxes3 input{
+    background:transparent;
+    border: none;
+    border-bottom:2px solid;
+    font-size: 20px;
+    display: block;
+    width: 126%;
+    padding:15px;
+    margin: 5px;
+}
+.boxes3 input:focus{
+    outline: none;
+}
+#bookdes{
+    background:transparent;
+    border: none;
+    border-bottom:2px solid;
+    font-size: 20px;
+    display: block;
+    width: 131%;
+    padding-left: 15px;
+    padding-top:10px;
+    padding-bottom:17px;
+    padding-right: 0px;
+    margin: 5px;
+}
+#bookdes textarea:focus{
+    outline: none;
+}
+.buttons{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    background-color: aquamarine;
+    align-self: flex-end; 
+
+}
+.boxes3 input::placeholder{
+    color: black;
+}
+#bookdes::placeholder{
+    color:black
+}
+@media (max-width: 600px) {
+    .containers {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      width: 60%; 
+      margin: 10px 0;
+      padding: 22px;
+    }
+  
+    .buttonplus {
+      bottom: 20px;
+      bottom: 20px;
+      right: 22px;
+      width: 62px;
+      height: 70px;
+      font-size: 45px;
+      padding-left: 16px;
+    }
+    .button{
+        margin-top: auto;
+        font-size: 30px;
+        padding-left: 20px;
+      
+    }
+  
+    .popup-box {
+        width: 66%;
+        height: 321px;
+        padding: 10px;
+    }
+
+    .boxes3 input{
+        font-size: 15px;
+        width: 140%;
+    }
+    #bookdes{
+        font-size: 15px;
+        width: 147%;
+    }
+  }
+
+  @media(min-width: 601px) and (max-width: 1024px) {
+    .containers {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      width: 60%; 
+      margin: 10px 0;
+      padding: 22px;
+    }
+  
+    .buttonplus {
+      bottom: 20px;
+      bottom: 20px;
+      right: 22px;
+      width: 62px;
+      height: 70px;
+      font-size: 45px;
+      padding-left: 16px;
+    }
+    .button{
+        margin-top: auto;
+        font-size: 30px;
+        padding-left: 20px;
+      
+    }
+  
+    .popup-box {
+        width: 66%;
+        height: 321px;
+        padding: 10px;
+    }
+
+    .boxes3 input{
+        font-size: 15px;
+        padding-right: 14px;
+        width: 592px;
+    }
+    #bookdes{
+        font-size: 15px;
+        padding-right: 14px;
+        width: 592px;
+    }
+  }
+  
+
+
+
+      
+      
